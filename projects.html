@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edmond Luu - Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="title">Edmond Luu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="funfacts.html">Fun Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="siteinfo.html">Site Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Images/tenzies.jpg" class="d-block w-100" alt="Measurement Converter Project">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Images/measurementProject.jpg" class="d-block w-100" alt="Measurement Converter Project">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Images/searchProject.jpg" class="d-block w-100" alt="TV Show Search Project">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Images/languageTranslator.jpg" class="d-block w-100" alt="Calculator Project">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Images/temperatureProject.jpg" class="d-block w-100" alt="Temperature Converter Project">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+    <section class="container-fluid" id="intro">
+        <h2 class="display-2 text-center" id="welcome">Projects</h2>
+    </section>
+
+    <section class="container" id="siteinfo">
+        <p>On this page, you will find the web development projects that I have completed or am currently working on. All of my projects listed below are all hosted on my <a href="https://github.com/Edmond-Luu" target="_blank" rel="noopener noreferrer">Github page</a>.</p>
+    </section>
+
+    <section class="container-fluid">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        React Tenzies Game
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The Tenzies game was made with React and was one of the final projects from the React course on Scrimba. However, I have added some extra features to this game to make it more enjoyable and user-friendly!
+                        <div class="accLink"><a href="https://edmond-luu.github.io/react-tenzies">Click here to try the app!</a></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Measurement Converter
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The Measurement Converter is a large Javascript project that allows users to convert between imperial and metric measurements. I created this app because I find imperial measurements very confusing because, as I've said in my <a href="funfacts.html">Fun Facts</a> section, I use the metric units of measurement.
+                        <div class="accLink"><a href="https://edmond-luu.github.io/measurementConverter">Click here to try the app!</a></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        TV Show Search
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The TV Show Search app is an app for users to type in a search query and it will display the cover art for TV shows matching the search terms. This project is derived from Colt Steele's Web Development Bootcamp, but I added new features to it and improved its aesthetics (with Bulma, a CSS framework). The first feature is a reset button, which resets the search input and clears all displayed cover arts. The second feature clears all displayed cover arts when the user enters a new search and clicks on the search button.
+                        <div class="accLink"><a href="https://edmond-luu.github.io/tvShowSearch">Click here to try the app!</a></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Language Translator
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The Language Translator app is a Javascript app that I've learned to create and it uses a free API translation service. This application has a feature in particular that allows users to adjust the speed of the voice output for the available languages. Such feature is very helpful for people learning a new language and want to improve their pronunciations.  
+                            <div class="accLink"><a href="https://edmond-luu.github.io/languageTranslator/">Click here to try the app!</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Temperature Converter
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The Temperature Converter app is a simple app that allows the user to convert between fahrenheit and celsisus units. The app also displays units in Kelvin
+                            <div class="accLink"><a href="https://edmond-luu.github.io/temperatureConverter">Click here to try the app!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="cards">
+        <div></div>
+        <div class="card" style="width: 18rem;">
+            <a href="about.html"><img src="https://images.unsplash.com/photo-1562040506-a9b32cb51b94?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370" class="card-img-top" alt="Teddy Bear"></a>
+            <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text">Learn more about me and my goals as you read through my short autobiography.</p>
+                <div class="card-button">
+                    <a href="about.html" class="btn btn-transparent" id="card-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a href="projects.html"><img src="https://images.unsplash.com/photo-1492551557933-34265f7af79e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370" class="card-img-top" alt="Laptop"></a>
+            <div class="card-body">
+                <h5 class="card-title">My Projects</h5>
+                <p class="card-text">Check out some cool web development projects I am working on!
+                </p>
+                <div class="card-button">
+                    <a href="projects.html" class="btn btn-transparent" id="card-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <a href="contact.html"><img src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370" class="card-img-top" alt="Phone"></a>
+            <div class="card-body">
+                <h5 class="card-title">Contact Me</h5>
+                <p class="card-text">I'm interested getting in touch and networking with you through email and/or
+                    LinkedIn!
+                </p>
+                <div class="card-button">
+                    <a href="contact.html" class="btn btn-transparent" id="card-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

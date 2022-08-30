@@ -1,0 +1,141 @@
+:root {
+    --theme-color: rgb(51, 116, 110);
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url("Images/backgroundWallpaper.jpg");
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Odibee Sans", cursive;
+    letter-spacing: 5px;
+    min-height: 8vh;
+    max-height: 8vh;
+    background-color: white;
+}
+
+#title {
+    font-size: 45px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+nav a {
+    border-top: 1vh solid transparent;
+    border-bottom: 1vh solid transparent;
+}
+
+section.container-fluid {
+    padding: 50px 100px;
+}
+
+nav a:not(.active):not(.navbar-brand):hover {
+    background-color: rgb(240, 240, 240);
+    transition: all 500ms;
+}
+
+nav a.active:hover {
+    background-color: transparent;
+}
+
+nav a.navbar-brand {
+    background-color: transparent;
+}
+
+h2,
+p {
+    animation-name: slidein;
+    animation-duration: 1.5s;
+}
+
+.carousel-inner {
+    border: 5px solid var(--theme-color);
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+    min-width: 100vw;
+    max-height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2 {
+    color: rgb(51, 116, 110);
+}
+
+
+#cards {
+    margin: 10px 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-top: 25%;
+    }
+
+    to {
+        cards {
+            margin-top: 10px;
+        }
+
+        h2,
+        p {
+            padding: 50px 100px;
+        }
+    }
+}
+
+#card-button {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 84px;
+}
+
+#card-button:hover {
+    background-color: rgb(240, 240, 240);
+    transition: all 0.5s;
+}
+
+@media(max-width:920px) {
+    #cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 100vw;
+    }
+}
+
+.card-title {
+    padding-bottom: 1vh;
+    border-bottom: 1px solid black;
+}
+
+.accordion {
+    border: 5px solid var(--theme-color);
+}
+
+.list-group-item.active {
+    background-color: var(--theme-color);
+}
+
+.list-group {
+    margin-bottom: 5vh;
+    border: 5px solid var(--theme-color);
+}
+
+.accLink{
+    margin-top: 15px;
+}
