@@ -1,5 +1,5 @@
 # My Old Portfolio Website
-## This is an older version of my [current website](https://edmond-luu.github.io) ##
+## This is an older version of my [current website](https://edmond-luu.github.io), which is powered by React. ##
 
 
 Click [here](https://edmond-luu.github.io/oldWebsite) or on the image below to see the website!
