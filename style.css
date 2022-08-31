@@ -13,9 +13,9 @@ nav {
     font-size: 30px;
     font-family: "Odibee Sans", cursive;
     letter-spacing: 5px;
-    min-height: 8vh;
-    max-height: 8vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 #title {
@@ -31,9 +31,6 @@ nav a {
     border-bottom: 1vh solid transparent;
 }
 
-section.container-fluid {
-    padding: 50px 100px;
-}
 
 nav a:not(.active):not(.navbar-brand):hover {
     background-color: rgb(240, 240, 240);
@@ -64,6 +61,12 @@ p {
     max-height: 50vh;
     object-fit: cover;
     object-position: center;
+}
+
+.alert {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    letter-spacing: 0;
 }
 
 h2 {
@@ -136,6 +139,6 @@ h2 {
     border: 5px solid var(--theme-color);
 }
 
-.accLink{
+.accLink {
     margin-top: 15px;
 }
