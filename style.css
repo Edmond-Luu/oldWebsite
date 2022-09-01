@@ -18,7 +18,18 @@ nav {
     flex-direction: column;
 }
 
+.navLogoAndTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLogo{
+    width: 75px
+}
+
 #title {
+    margin-left: 15px;
     font-size: 45px;
 }
 
@@ -67,6 +78,10 @@ p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
     letter-spacing: 0;
+}
+
+#noHighlight:hover{
+    background-color: transparent;
 }
 
 h2 {
